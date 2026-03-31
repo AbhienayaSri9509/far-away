@@ -186,39 +186,6 @@ State / Utilities
 	•	Custom utility services for API handling and communication flow
 
 
-📂 Project Structure
-
-hacker/
-│
-├── src/
-│   ├── app/
-│   │   ├── api/
-│   │   │   ├── ai/                         # AI-based sign processing
-│   │   │   ├── gemini-sign-language/       # Real-time sign recognition API
-│   │   │   ├── gemini-sign-suggestions/    # Text-to-sign suggestions
-│   │   │   └── lovo-tts/                   # Text-to-speech integration
-│   │   └── page.js                         # Main application page
-│   │
-│   ├── components/
-│   │   ├── CVCamera.jsx                    # Webcam sign recognition
-│   │   ├── MessagesList.jsx                # Chat / output display
-│   │   ├── BoardSettings.jsx               # App controls and settings
-│   │   └── Experience.jsx                  # 3D environment / scene
-│   │
-│   ├── services/                           # Gemini API & AI services
-│   ├── utils/                              # Helper utilities
-│   └── hooks/
-│       └── useAITeacher.js                 # State management / AI logic
-│
-├── scripts/
-│   ├── download_models.py
-│   ├── inspect_smplx.py
-│   ├── install_openh264.py
-│
-├── public/
-├── App.tsx
-└── README.md
-
 🤝 Contributing
 
 We love your input! Want to contribute? Here’s how:
