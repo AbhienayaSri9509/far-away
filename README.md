@@ -258,7 +258,7 @@ We love your input! Want to contribute? Here’s how:
 ⸻
 
 👨‍💻 Contributors:
-	•	@afra
+	•	@afra245
 	•	@abhienaya-sri
 	•	@Sanjay-2806
 
