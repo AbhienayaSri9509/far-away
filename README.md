@@ -3,7 +3,6 @@
 Transform everyday communication with Sign Bridge AI – an AI-powered platform that bridges the gap between deaf or hard-of-hearing individuals and non-signers through real-time sign recognition, text-to-sign human video generation, speech output, and multilingual support.
 
 ⸻
-
 ✨ Key Features
 
 Core Functionality
@@ -44,7 +43,6 @@ Provides a more engaging and understandable visual communication experience.
 
 Built with a clean, accessible, and responsive interface for real-time usability.
 Designed for smooth interaction in classrooms, hospitals, public services, and workplaces.
-
 ⸻
 
 🚀 Problem Statement
@@ -180,7 +178,6 @@ AI / Backend
 	•	Text-to-Speech Integration for voice output
 
 ⸻
-
 State / Utilities
 	•	Zustand for lightweight state management
 	•	Custom utility services for API handling and communication flow
@@ -206,6 +203,7 @@ We love your input! Want to contribute? Here’s how:
 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
+
 ⸻
 
 ❤️ Made with Love by Team Apple
