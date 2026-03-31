@@ -1,7 +1,7 @@
 
-# 🤟 BridgeTalk AI – Real-Time Sign Language Communication Platform
+# 🤟 Sign Bridge AI – Real-Time Sign Language Communication Platform
 
-BridgeTalk AI is an **AI-powered sign language communication platform** designed to make conversations more inclusive for the deaf and hard-of-hearing community.  
+Sign Bridge AI is an **AI-powered sign language communication platform** designed to make conversations more inclusive for the deaf and hard-of-hearing community.  
 It combines **real-time sign recognition**, **text-to-sign animation**, **voice output**, and **multilingual support** to bridge the communication gap between sign language users and non-signers.
 
 ---
@@ -42,7 +42,7 @@ Communication between sign language users and non-signers is often difficult in 
 - Customer support
 - Emergency situations
 
-**BridgeTalk AI** solves this by enabling:
+**Sign Bridge AI** solves this by enabling:
 - **Sign → Text / Speech**
 - **Text → Sign Animation using a human sign video system powered by a large sign avatar dataset**
 
@@ -95,7 +95,7 @@ This allows **bidirectional communication** between:
 ## 📂 Project Structure
 
 ```bash
-gdg-hackathon-hyderabad/
+hacker/
 │
 ├── src/
 │   ├── app/
