@@ -205,8 +205,7 @@ We love your input! Want to contribute? Here’s how:
 
 📜 License
 
-This project is proudly open source, licensed under the MIT LICENSE.
-
+This project is licensed under the [MIT License](LICENSE).
 ⸻
 
 ❤️ Made with Love by Team Apple
