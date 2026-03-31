@@ -1,4 +1,3 @@
-
 🤟 Sign Bridge AI – Your Smart Real-Time Sign Language Communication Companion
 
 Transform everyday communication with Sign Bridge AI – an AI-powered platform that bridges the gap between deaf or hard-of-hearing individuals and non-signers through real-time sign recognition, text-to-sign human video generation, speech output, and multilingual support.
@@ -86,8 +85,6 @@ This allows bidirectional communication between:
 	•	Doctors / patients
 	•	Interviewers / candidates
 
-⸻
-
 🚀 Getting Started
 
 Installation Steps
@@ -97,65 +94,44 @@ Installation Steps
 You have two options:
 
 If you have forked the repository, replace YOUR_GITHUB_USERNAME with your GitHub username and run:
-
-git clone https://github.com/YOUR_GITHUB_USERNAME/hacker.git
+	git clone https://github.com/YOUR_GITHUB_USERNAME/hacker.git
 
 If you want to clone directly, run:
-
-git clone https://github.com/Sanjay-2806/hacker.git
+	git clone https://github.com/Sanjay-2806/hacker.git
 
 Then, navigate to the project folder:
+	cd hacker
 
-cd hacker
-
-
-⸻
 
 2. Set Up Development Environment
 
 Install dependencies:
-
-npm install
-
+	npm install
+	
 Run the frontend:
-
-npm run dev
-
-
-⸻
+	npm run dev
 
 3. Set Up Sign Avatar Server
 
 Run the Python-based sign animation / human video server:
-
-cd sign-avatar-server
-pip install -r requirements.txt
-python server.py
-
-
-⸻
+	cd sign-avatar-server
+	pip install -r requirements.txt
+	python server.py
+	
 
 4. Configure Gemini API Key
 
 Create a .env.local file in the project root and add your Google Gemini API Key:
-
-GEMINI_API_KEY=your_gemini_api_key_here
-
-This API key is used for:
+	GEMINI_API_KEY=your_gemini_api_key_here
+	This API key is used for:
 	•	Sign-to-Text processing
 	•	Sign-to-Speech output
 	•	Smart AI-based language interpretation
 
-⸻
-
 5. Open the Application
 
 Open your browser and go to:
-
-http://localhost:3000
-
-
-⸻
+	http://localhost:3000
 
 🧩 Using Sign Bridge AI
 
@@ -209,7 +185,6 @@ State / Utilities
 	•	Zustand for lightweight state management
 	•	Custom utility services for API handling and communication flow
 
-⸻
 
 📂 Project Structure
 
@@ -244,9 +219,6 @@ hacker/
 ├── App.tsx
 └── README.md
 
-
-⸻
-
 🤝 Contributing
 
 We love your input! Want to contribute? Here’s how:
@@ -259,7 +231,7 @@ We love your input! Want to contribute? Here’s how:
 
 👨‍💻 Contributors:
 	•	@afra245
-	•	@abhienaya-sri
+	•	@abhienayaSri9509
 	•	@Sanjay-2806
 
 ⸻
@@ -271,4 +243,3 @@ This project is proudly open source, licensed under the MIT License.
 ⸻
 
 ❤️ Made with Love by Team Apple
-
