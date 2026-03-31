@@ -205,7 +205,7 @@ We love your input! Want to contribute? Here’s how:
 
 📜 License
 
-This project is proudly open source, licensed under the MIT License.
+This project is proudly open source, licensed under the MIT LICENSE.
 
 ⸻
 
