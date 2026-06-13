@@ -1,206 +1,314 @@
-🤟 Sign Bridge AI – Your Smart Real-Time Sign Language Communication Companion
+# 🤟 Sign Bridge AI – Real-Time Sign Language Communication Companion
 
-Transform everyday communication with Sign Bridge AI – an AI-powered platform that bridges the gap between deaf or hard-of-hearing individuals and non-signers through real-time sign recognition, text-to-sign human video generation, speech output, and multilingual support.
+## 🌟 Overview
 
-⸻
-✨ Key Features
+**Sign Bridge AI** is an AI-powered accessibility platform designed to bridge the communication gap between deaf or hard-of-hearing individuals and non-signers. Using real-time sign language recognition, speech synthesis, text-to-sign video generation, and multilingual support, the platform enables seamless two-way communication in everyday situations.
 
-Core Functionality
+Whether in classrooms, hospitals, workplaces, interviews, customer support centers, or emergency services, Sign Bridge AI empowers users to communicate naturally and efficiently without requiring a human interpreter.
 
-🎥 Real-Time Sign Recognition
+---
 
-Detects and interprets sign language gestures using AI + live webcam input.
-Recognizes signs in real time and converts them into meaningful text output.
+# ✨ Key Features
 
-🔊 Sign-to-Text & Speech
+## 🎥 Real-Time Sign Language Recognition
 
-Converts recognized sign language into instant text and spoken audio output using the Google Gemini API Key.
-Helps non-signers understand sign language quickly and naturally through AI-powered interpretation.
+* Detects and interprets sign language gestures using AI and live webcam input.
+* Converts sign gestures into meaningful text in real time.
+* Provides fast and accurate communication support.
 
-🎬 Text-to-Sign Human Video Output
+## 🔊 Sign-to-Text & Speech Conversion
 
-Converts typed text into realistic human sign language video output using a separate Sign Avatar server.
-Powered by a large 12GB sign avatar dataset, enabling more natural and expressive sign communication.
+* Converts recognized sign language into readable text.
+* Generates natural speech output using Google Gemini-powered processing.
+* Helps non-signers understand sign language instantly.
 
-🔄 Two-Way Communication
+## 🎬 Text-to-Sign Human Video Generation
 
-Enables complete bidirectional communication between sign language users and non-signers in real time.
+* Converts typed text into realistic sign language videos.
+* Powered by a dedicated Sign Avatar Server.
+* Utilizes a large 12GB sign avatar dataset for expressive and natural sign generation.
 
-⸻
+## 🔄 Two-Way Communication
 
-Accessibility & Interaction
+Supports complete bidirectional communication:
 
-🌍 Multi-Language Support
+* Sign Language → Text & Speech
+* Text → Sign Language Video
 
-Supports English and Tamil for broader accessibility and inclusive communication across different users.
+---
 
-🧍 3D Interactive Sign Avatar
+# 🌍 Accessibility Features
 
-Displays animated sign language using a 3D avatar-based system.
-Provides a more engaging and understandable visual communication experience.
+## 🌐 Multi-Language Support
 
-🎨 Modern Interactive UI
+Supports:
 
-Built with a clean, accessible, and responsive interface for real-time usability.
-Designed for smooth interaction in classrooms, hospitals, public services, and workplaces.
-⸻
+* English
+* Tamil
 
-🚀 Problem Statement
+Making communication more inclusive and accessible.
 
-Communication between sign language users and non-signers is often difficult in everyday life such as:
-	•	Classrooms
-	•	Hospitals
-	•	Public services
-	•	Interviews
-	•	Customer support
-	•	Emergency situations
+## 🧍 Interactive 3D Sign Avatar
 
-Without interpreters, communication can become slow, expensive, or inaccessible.
+* Displays animated sign language through a realistic avatar system.
+* Enhances understanding and engagement.
+* Provides a visual communication experience for users.
 
-Sign Bridge AI solves this by enabling:
-	•	Sign → Text / Speech using Google Gemini API Key
-	•	Text → Sign Human Video Output using a Sign Avatar system powered by a 12GB dataset
+## 🎨 Modern User Interface
 
-This creates a complete two-way communication bridge.
+* Responsive and accessible design.
+* Clean and intuitive user experience.
+* Optimized for real-time interactions.
 
-⸻
+---
 
-💡 Solution Overview
+# 🚀 Problem Statement
 
-Sign Bridge AI acts as a real-time accessibility assistant:
-	•	User performs a sign in front of the webcam
-	•	AI recognizes the gesture in real time
-	•	Recognized output is processed using the Google Gemini API Key
-	•	The output is shown as text
-	•	Text is converted into speech for non-signers
-	•	Typed text from another user is sent to the Sign Avatar server
-	•	The avatar displays the corresponding human sign language video output using a 12GB sign avatar dataset
+Communication between sign language users and non-signers often becomes difficult in environments such as:
 
-This allows bidirectional communication between:
-	•	Deaf / hard-of-hearing users
-	•	Non-signers
-	•	Teachers / students
-	•	Doctors / patients
-	•	Interviewers / candidates
+* Schools and Colleges
+* Hospitals
+* Public Service Centers
+* Job Interviews
+* Customer Support
+* Emergency Situations
 
-🚀 Getting Started
+Without interpreters, communication can be:
 
-Installation Steps
+* Slow
+* Expensive
+* Inaccessible
 
-1. Clone the Repository
+Sign Bridge AI eliminates these barriers through AI-powered real-time communication assistance.
 
+---
 
+# 💡 Solution
 
-If you have forked the repository, replace YOUR_GITHUB_USERNAME with your GitHub username and run:
-	git clone https://github.com/YOUR_GITHUB_USERNAME/hacker.git
-	
-Then, navigate to the project folder:
-	cd hacker
+Sign Bridge AI serves as an intelligent communication bridge:
 
+### Sign Language to Speech
 
-2. Set Up Development Environment
+1. User performs sign language gestures.
+2. Webcam captures gestures.
+3. AI recognizes the signs.
+4. Gemini processes and interprets the recognized content.
+5. Output is displayed as text.
+6. Text is converted into speech.
 
-Install dependencies:
-	npm install
-	
-Run the frontend:
-	npm run dev
+### Text to Sign Language
 
-3. Set Up Sign Avatar Server
+1. User enters text.
+2. Text is sent to the Sign Avatar Server.
+3. The avatar system generates sign language animations.
+4. Human-like sign videos are displayed.
 
-Run the Python-based sign animation / human video server:
-	cd sign-avatar-server
-	pip install -r requirements.txt
-	python server.py
-	
+This enables seamless communication between:
 
-4. Configure Gemini API Key
+* Deaf and Hard-of-Hearing Individuals
+* Teachers and Students
+* Doctors and Patients
+* Interviewers and Candidates
+* Customer Service Representatives and Customers
 
-Create a .env.local file in the project root and add your Google Gemini API Key:
-	GEMINI_API_KEY=your_gemini_api_key_here
-	This API key is used for:
-	•	Sign-to-Text processing
-	•	Sign-to-Speech output
-	•	Smart AI-based language interpretation
+---
 
-5. Open the Application
+# 🛠 Technology Stack
 
-Open your browser and go to:
-	http://localhost:3000
+## Frontend
 
-🧩 Using Sign Bridge AI
+* Next.js
+* React.js
+* Tailwind CSS
+* Three.js
+* React Three Fiber
+* React Three Drei
 
-🎥 Real-Time Sign Recognition
-	•	Open the app in your browser
-	•	Allow webcam access
-	•	Perform sign language gestures in front of the camera
-	•	The system detects and interprets the signs in real time
-	•	Output is displayed as text and can be converted into speech using the Google Gemini API Key
+## AI & Backend
 
-⸻
+* Google Gemini API
+* Python
+* Sign Avatar Server
+* Webcam / Media APIs
+* Text-to-Speech Services
 
-🎬 Text-to-Sign Human Video Communication
-	•	Enter text into the input field
-	•	The text is sent to the Sign Avatar server
-	•	The system uses the 12GB sign avatar dataset
-	•	The avatar generates the corresponding human sign language video output
-	•	Enables non-signers to communicate visually with sign language users
+## State Management
 
-⸻
+* Zustand
 
-🌍 Multilingual Communication
-	•	Choose supported languages such as English or Tamil
-	•	Improve accessibility and usability for a wider audience
+## Dataset
 
-⸻
+* 12GB Sign Avatar Dataset
 
-🛠 Technical Stack
+---
 
-Frontend Technologies
-	•	Next.js for application structure
-	•	React.js for dynamic UI components
-	•	Tailwind CSS for modern responsive styling
-	•	Three.js for 3D rendering
-	•	React Three Fiber for 3D integration in React
-	•	React Three Drei for 3D utilities and helpers
+# 🚀 Installation Guide
 
-⸻
+## 1. Clone the Repository
 
-AI / Backend
-	•	Google Gemini API Key for Sign-to-Text, Sign-to-Speech, and AI-powered interpretation
-	•	Python for the Text-to-Sign backend server
-	•	Sign Avatar System for human sign language video generation
-	•	12GB Sign Avatar Dataset for realistic sign animation / human sign output
-	•	Webcam / Media APIs for live video input
-	•	Text-to-Speech Integration for voice output
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/hacker.git
 
-⸻
-State / Utilities
-	•	Zustand for lightweight state management
-	•	Custom utility services for API handling and communication flow
+cd hacker
+```
 
+## 2. Install Dependencies
 
-🤝 Contributing
+```bash
+npm install
+```
 
-We love your input! Want to contribute? Here’s how:
-	•	Fork the repository
-	•	Create your feature branch
-	•	Commit your changes
-	•	Submit a pull request
+## 3. Start Frontend
 
-⸻
+```bash
+npm run dev
+```
 
-👨‍💻 Contributors:
-	•	@afra245
-	•	@abhienayaSri9509
-	•	@Sanjay-2806
+---
 
-⸻
+# 🎬 Sign Avatar Server Setup
 
-📜 License
+Navigate to the Sign Avatar Server directory:
 
-This project is licensed under the [MIT License](LICENSE).
+```bash
+cd sign-avatar-server
+```
 
-⸻
+Install Python dependencies:
 
-❤️ Made with Love by Team Apple
+```bash
+pip install -r requirements.txt
+```
+
+Run the server:
+
+```bash
+python server.py
+```
+
+---
+
+# 🔑 Configure Gemini API
+
+Create a file named:
+
+```env
+.env.local
+```
+
+Add your Gemini API key:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+This API powers:
+
+* Sign-to-Text Conversion
+* Speech Generation
+* AI Interpretation
+* Language Processing
+
+---
+
+# 🌐 Launch Application
+
+Open:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+# 📖 Usage Guide
+
+## 🎥 Real-Time Sign Recognition
+
+1. Open the application.
+2. Grant webcam permissions.
+3. Perform sign language gestures.
+4. AI detects and interprets signs.
+5. View text output instantly.
+6. Listen to generated speech output.
+
+---
+
+## 🎬 Text-to-Sign Communication
+
+1. Enter text in the input field.
+2. Submit the text.
+3. Text is processed by the Sign Avatar Server.
+4. Avatar generates corresponding sign language output.
+5. Users view human-like sign animations.
+
+---
+
+## 🌍 Multilingual Communication
+
+* Select English or Tamil.
+* Receive translated and interpreted outputs.
+* Improve accessibility across diverse users.
+
+---
+
+# 📈 Future Enhancements
+
+* Additional language support
+* Mobile application deployment
+* Offline sign recognition
+* Enhanced avatar realism
+* Gesture personalization
+* Real-time conversation history
+* Healthcare and education integrations
+
+---
+
+# 🤝 Contributing
+
+We welcome contributions from the community.
+
+### Steps:
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push changes
+
+```bash
+git push origin feature-name
+```
+
+5. Create a Pull Request
+
+---
+
+# 👨‍💻 Team Apple
+
+### Contributors
+
+* Abhienaya Sri (@AbhienayaSri9509)
+* Afra (@afra245)
+* Sanjay (@Sanjay-2806)
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+# ❤️ Made with Love by Team Apple
+
+Empowering communication through Artificial Intelligence and Accessibility Technology.
