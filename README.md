@@ -89,14 +89,11 @@ Installation Steps
 
 1. Clone the Repository
 
-You have two options:
+
 
 If you have forked the repository, replace YOUR_GITHUB_USERNAME with your GitHub username and run:
 	git clone https://github.com/YOUR_GITHUB_USERNAME/hacker.git
-
-If you want to clone directly, run:
-	git clone https://github.com/Sanjay-2806/hacker.git
-
+	
 Then, navigate to the project folder:
 	cd hacker
 
